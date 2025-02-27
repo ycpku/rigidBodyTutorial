@@ -20,7 +20,7 @@ namespace
             -q.x() * omega.x() - q.y() * omega.y() - q.z() * omega.z(),
             q.w() * omega.x() + q.z() * omega.y() - q.y() * omega.z(),
             -q.z() * omega.x() + q.w() * omega.y() + q.x() * omega.z(),
-            -q.y() * omega.x() - q.x() * omega.y() + q.w() * omega.z()
+            q.y() * omega.x() - q.x() * omega.y() + q.w() * omega.z()
         );
     }
 }
